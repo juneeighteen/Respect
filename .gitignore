@@ -1,0 +1,6 @@
+
+#Ignore WebStorm IDE
+.idea
+
+#Ignore node_modules
+node_modules
