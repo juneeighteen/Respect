@@ -1,10 +1,13 @@
 {
   "name": "Respect",
   "version": "1.1.0",
-  "description": "Bootstrap Theme (forked from Html-Coder/Worthy)",
+  "description": "RESPECT - A Bootstrap Theme forked from Html-Coder/Worthy",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "superupdate": "npm run awesomefi && npm run bootstrapfi",
+    "awesomefi": "rm -rf fonts/font-awesome && mkdir -p fonts/font-awesome && cp -R node_modules/font-awesome/* fonts/font-awesome/",
+    "bootstrapfi": "rm -rf bootstrap && mkdir -p bootstrap && cp -R node_modules/bootstrap/dist/* bootstrap/",
+    "animatefi": "rm css/animate.css && cp node_modules/animate.css/animate.* css"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/juneeighteen/Respect/issues"
   },
-  "homepage": "https://github.com/juneeighteen/Respect"
+  "homepage": "https://github.com/juneeighteen/Respect",
+  "dependencies": {
+    "animate.css": "git://github.com/daneden/animate.css",
+    "bootstrap": "^3.3.4",
+    "font-awesome": "git://github.com/FortAwesome/Font-Awesome"
+  }
 }
