@@ -1,0 +1,24 @@
+{
+  "name": "Respect",
+  "version": "1.1.0",
+  "description": "Bootstrap Theme (forked from Html-Coder/Worthy)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juneeighteen/Respect.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "respect",
+    "worthy"
+  ],
+  "author": "Drew Easley (forked from Html-Coder/Worthy)",
+  "license": "https://creativecommons.org/licenses/by/3.0/",
+  "bugs": {
+    "url": "https://github.com/juneeighteen/Respect/issues"
+  },
+  "homepage": "https://github.com/juneeighteen/Respect"
+}
