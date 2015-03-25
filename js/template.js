@@ -1,8 +1,7 @@
-/* Theme Name: Worthy - Free Powerful Theme by HtmlCoder
- * Author:HtmlCoder
- * Author URI:http://www.htmlcoder.me
- * Version:1.0.0
- * Created:November 2014
+/* Theme Name: RESPECT - A Bootstrap Theme
+ * Forked from HtmlCoder's Worthy Theme
+ * Version:1.1.0
+ * Created:March 2015
  * License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
  * File Description: Initializations of plugins 
  */
@@ -10,7 +9,7 @@
 (function($){
 	$(document).ready(function(){
 	
-		$(".banner-image").backstretch('images/banner.jpg');
+		$(".banner-image").backstretch('images/background-ocean-1.jpg');
 		
 		// Fixed header
 		//-----------------------------------------------
