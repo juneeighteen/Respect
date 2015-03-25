@@ -1,12 +1,10 @@
-/* Theme Name:Worthy - Free Powerfufl Theme by HtmlCoder
-Author:HtmlCoder
+/* Theme Name:Respect
+Author:DrewEasley
 Author URI:http://www.htmlcoder.me
-Version:1.0.0
-Created:November 2014
+Version:1.1.0
+Created:March 2015
 License:Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
 File Description:Main CSS file of the template */
-
-Updates: Drew Easley, March 23 2015
 
 /* Typography
 ----------------------------------------------------------------------------- */
@@ -15,7 +13,10 @@ body {
 }
 .site-name {
 	font-family: 'Raleway', sans-serif;
+
 }
+
+
 html,
 body {
 	height: 100%;
@@ -241,11 +242,10 @@ blockquote {
 	z-index: 3;
 	position: relative;
 }
-.bg-image-1 {
-	background: url("../images/bg-image-1.jpg") 50% 0px no-repeat;
-}
-.bg-image-2 {
-	background: url("../images/bg-image-2.jpg") 50% 0px no-repeat;
+
+
+.bg-ocean-1 {
+    background: url("../images/background-ocean-1.jpg") 50% 0px no-repeat;
 }
 
 /* Misc
