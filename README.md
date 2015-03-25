@@ -1,28 +1,32 @@
-Worthy - Free Bootstrap Template
-=======================================================================
+Respect - A boostrap theme / site
+--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-Worhty is a Multipurpose One Page Template based on Bootstrap 3 Framework. 
-You can use it for corporate, business and agency webpages as well as 
-portfolio and personal webpages.
+Respect started as a fork from htmlcoder.me Worthy theme.  It has been 
+modified to be a multi-page site instead of a single page site.  
 
-If you like the template and find it useful, please help us spread the word :-)
+Respect Author: Drew Easley 
+Respect Create Date: March 2015 
 
-- Theme version: v1.0
-- Release Date: 13 Nov 2014
-- Author: HtmlCoder (http://htmlcoder.me)
-- Contact: http://htmlcoder.me/contact
 
-Live Preview
-=======================================================================
-http://www.htmlcoder.me/preview/worthy/v.1.0
+
+Installation instructions
+=========================
+
+(1) Chnage to your project / site directory
+(2) git clone https://github.com/juneeighteen/Respect
+(3) cd Respect
+(4) rm *.html
+(5) rm README.md
+
 
 License
 =======================================================================
-Worthy is released under the Creative Commons Attribution 3.0 License
+Respect (and the project it was forked from) are both released under the Creative Commons Attribution 3.0 License
 https://creativecommons.org/licenses/by/3.0/
 
-Credits
-=======================================================================
+
+CREDITS AND THANKS
+==================
 
 Demo images
 ------------------------------------------------------
