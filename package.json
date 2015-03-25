@@ -4,10 +4,10 @@
   "description": "RESPECT - A Bootstrap Theme forked from Html-Coder/Worthy",
   "main": "index.html",
   "scripts": {
-    "superupdate": "npm run awesomefi && npm run bootstrapfi",
+    "superupdate": "npm run awesomefi && npm run bootstrapfi && npm run animatefi",
     "awesomefi": "rm -rf fonts/font-awesome && mkdir -p fonts/font-awesome && cp -R node_modules/font-awesome/* fonts/font-awesome/",
     "bootstrapfi": "rm -rf bootstrap && mkdir -p bootstrap && cp -R node_modules/bootstrap/dist/* bootstrap/",
-    "animatefi": "rm css/animate.css && cp node_modules/animate.css/animate.* css"
+    "animatefi": "rm css/animate.* && cp node_modules/animate.css/animate.* css"
   },
   "repository": {
     "type": "git",
