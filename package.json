@@ -4,13 +4,13 @@
   "description": "RESPECT - A Bootstrap Theme forked from Html-Coder/Worthy",
   "main": "index.html",
   "scripts": {
-    "clean" : "rm -rf bootstrap && rm -rf fonts && rm-rf css/animate.* && rm -rf node_modules"
+    "clean" : "rm -rf bootstrap && rm -rf fonts && rm -rf css/animate.* && rm -rf node_modules",
     "superupdate": "npm run awesomefi && npm run bootstrapfi && npm run animatefi && npm run googfonts",
     "awesomefi": "rm -rf fonts/font-awesome && mkdir -p fonts/font-awesome && cp -R node_modules/font-awesome/* fonts/font-awesome/",
     "bootstrapfi": "rm -rf bootstrap && mkdir -p bootstrap && cp -R node_modules/bootstrap/dist/* bootstrap/",
     "animatefi": "rm css/animate.* && cp node_modules/animate.css/animate.* css",
     "googfonts": "curl -o fonts/google/OpenSans.css http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&subset=latin,latin-ext && curl -o fonts/google/Raleway.css http://fonts.googleapis.com/css?family=Raleway:700,400,300",
-    "test": "node node_modules/eslint/bin/eslint.js *"
+    "test": "node node_modules/eslint/bin/eslint.js *.js*"
   },
   "repository": {
     "type": "git",
