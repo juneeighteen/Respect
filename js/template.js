@@ -9,7 +9,7 @@
 (function($){
     "use strict";
 	$(document).ready(function(){
-		$(".banner-image").backstretch("images/background-ocean-1.jpg");
+		$(".banner-image").backstretch("respect/images/background-ocean-1.jpg");
 		// Fixed header
 		//-----------------------------------------------
 		$(window).scroll(function() {
