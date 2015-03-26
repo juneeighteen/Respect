@@ -12,6 +12,18 @@ body {	font-family: 'Open Sans', sans-serif; }
 .site-name {  font-family: 'Raleway', sans-serif; }
 
 
+#headcontent {
+    color: #ffffff;
+}
+
+#headtitle {
+
+}
+
+.facebookblue {
+    color: #3b5998 !important;
+}
+
 html,
 body {
 	height: 100%;
@@ -72,10 +84,12 @@ a {
 a:hover {
 	color: #339BEB;
 }
+
 a:focus,
 a:active {
 	outline: none;
 }
+a:visited {color:#ffffff;}
 .large {
 	font-size: 18px;
 }
@@ -160,10 +174,6 @@ blockquote {
     z-index: 2;
     color: #ffffff;
 
-}
-
-.color3 {
-    color: #ffffff;
 }
 
 .subfooter {
@@ -655,6 +665,7 @@ textarea {
 .filters .nav-pills > li + li {
 	margin-left: 0px;
 }
+
 .text-center.filters .nav-pills > li {
 	margin-right: 2px;
 	margin-left: 2px;
